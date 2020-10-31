@@ -1,0 +1,172 @@
+.header{
+    background-color: #d32323
+}
+.nav-link {
+  color: white;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+a:hover{
+  color: #aaa;
+  text-decoration: none;
+}
+#inputGroupSelect01{
+  height: 100%;
+}
+.myNav {
+  position: absolute;
+  width: 100%;
+}
+.search {
+  position: relative;
+  text-align: center;
+}
+.search label {
+  color: white;
+  text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
+}
+#mainSlide {
+  position: absolute;
+    background:
+            linear-gradient(
+                    rgba(0, 0, 0, 0.5),
+                    rgba(0, 0, 0, 0.5)
+            )
+}
+.content {
+    position: relative;
+}
+
+/*Overlay in Trending Foods*/
+.related-post-desc {
+    background-color:rgba(0, 0, 0, 0.8);
+    width:90%;
+    height:0;
+    top:100%;
+    left: auto;
+    position:absolute;
+    overflow:hidden;
+    transition: .2s ease;
+}
+
+.trendingFood:hover .related-post-desc {
+    top:80%;
+    height:20%;
+}
+
+.related-post-title {
+    top:20%;
+    position:absolute;
+    margin-left: 5px;
+    color:#EEE;
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+.related-post-img{
+    width: 100%;
+    height: auto;
+}
+/*Footer Starts*/
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+.footer{
+    position: relative;
+}
+/*Carousel contrlol*/
+#foodSlide {
+    margin-bottom: 0;
+    padding: 0 40px 0 40px;
+}
+
+/* The controlsy */
+#foodSlide .control{
+    left: 0%;
+    height: 40px;
+    width: 40px;
+    background: none repeat scroll 0 0 #222222;
+    border: 4px solid #FFFFFF;
+    border-radius: 23px 23px 23px 23px;
+    margin-top: 75px;
+}
+#foodSlide .right {
+    left:98%;
+}
+/*Counter*/
+.counters{
+    position: relative;
+}
+.counter {
+    background-color:#f5f5f5;
+    padding: 20px 0;
+    border-radius: 5px;
+}
+
+.count-title {
+    font-size: 40px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.count-text {
+    font-size: 13px;
+    font-weight: normal;
+    margin-top: 10px;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.fa-2x {
+    margin: 0 auto;
+    float: none;
+    display: table;
+    color: #4ad1e5;
+}
